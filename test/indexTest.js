@@ -9,12 +9,12 @@ describe("what-is-a-test", () => {
     });
   });
 
-  describe(39, () => {
-    it("is less than 40 and greater than 0", () => {
+  describe(39), () => {
+    it('is less than 40 and greater than 0', () => {
       expect(height).toBeMoreThan(0)
       expect(height).toBeLessThan(40);
     });
-  });
+  };
 
   describe("Message", () => {
     it("gives the name and height", () => {
